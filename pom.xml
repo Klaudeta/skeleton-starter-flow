@@ -56,6 +56,14 @@
             <groupId>com.vaadin</groupId>
             <artifactId>vaadin-core</artifactId>
         </dependency>
+        <!-- Added to use PWA-supporting flow version -->
+        <!-- remove when PWA is available in real version -->
+        <!-- needs local build of flow-server -->
+        <dependency>
+            <groupId>com.vaadin</groupId>
+            <artifactId>flow-server</artifactId>
+            <version>1.1-SNAPSHOT</version>
+        </dependency>
 
         <!-- Added to provide logging output as Flow uses -->
         <!-- the unbound SLF4J no-operation (NOP) logger implementation -->
